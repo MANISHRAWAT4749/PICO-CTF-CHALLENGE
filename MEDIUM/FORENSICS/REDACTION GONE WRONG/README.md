@@ -1,5 +1,7 @@
 🕵️ Redaction gone wrong
+
 📂 Category : Forensics
+
 📊 Level : Medium
 ________________________________________
 🧠 The Flaw

@@ -3,9 +3,13 @@ Hidden Cipher 2 Writeup
 Challenge Information
 
 •	Challenge Name: Hidden Cipher 2
+
 •	Category: Reverse Engineering
+
 •	Difficulty: Medium
+
 •	Points: 100
+
 ________________________________________
 Description
 The challenge provides a ZIP file containing an executable (hiddencipher2) and a flag.txt file. The flag file contains a fake flag, suggesting that the real flag must be recovered by analyzing the program's behavior.

@@ -1,7 +1,11 @@
 Smart_Overflow
+
 📂 Category : Blockchain
+
 📊 Level : Medium
+
 🏁 Flag : picoCTF{Sm4r7_OverFL0ws_ExI5t_160a36b7}
+
 ________________________________________
 🧠 The Vulnerability
 The contract uses Solidity 0.6.12, which does not automatically check for integer overflows.

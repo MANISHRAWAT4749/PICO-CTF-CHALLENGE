@@ -24,7 +24,7 @@ ________________________________________
 Relying on visual redaction (drawing black boxes) is not secure.
 Sensitive data must be properly removed or sanitized, otherwise it can be easily recovered using simple actions like copy-paste.
 ________________________________________
-✅ Final Flag
+✅ Final Flag : 
 picoCTF{C4n_Y0u_S33_m3_fully}
 ________________________________________
 

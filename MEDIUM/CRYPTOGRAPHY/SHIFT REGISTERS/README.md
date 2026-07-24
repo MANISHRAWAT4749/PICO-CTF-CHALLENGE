@@ -119,7 +119,7 @@ Output
 163 b'picoCTF{l1n3ar_f33dback_sh1ft_r3g}'
 Both seeds produce the same plaintext due to the properties of this small LFSR.
 ________________________________________
-Flag
+Flag : 
 picoCTF{l1n3ar_f33dback_sh1ft_r3g}
 ________________________________________
 Key Takeaway

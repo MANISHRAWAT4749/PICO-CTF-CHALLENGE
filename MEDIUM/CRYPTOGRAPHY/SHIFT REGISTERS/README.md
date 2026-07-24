@@ -14,6 +14,7 @@ The challenge implements a stream cipher using an 8-bit Linear Feedback Shift Re
 The author assumed that using an LFSR would provide sufficient security, but the implementation only uses an 8-bit internal state, making brute-force attacks practical.
 
 ________________________________________
+
 Files Provided
 chall.py
 from Crypto.Util.number import bytes_to_long, long_to_bytes

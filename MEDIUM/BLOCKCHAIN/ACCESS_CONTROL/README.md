@@ -1,6 +1,9 @@
 Access_Control
+
 Category: Blockchain
+
 Difficulty: Medium
+
 Points: 200
 ________________________________________
 Description
@@ -43,6 +46,8 @@ function changeOwner(address _newOwner) public {
 }
 This allows an attacker to become the owner and access privileged functionality.
 ________________________________________
-Flag
+
+Flag : 
 picoCTF{i_c4n_b3_0wn3r_9fb6747b}
+
 ________________________________________

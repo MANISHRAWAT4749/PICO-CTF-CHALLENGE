@@ -94,8 +94,11 @@ Upon running python3 solve.py, the script cleanly completes all 20 rounds automa
 Plaintext
 Correct!
 Woah, how'd you do that??
+
 Here's your flag: picoCTF{4u7o_r3v_g0_brrr_78c345aa}
+
 Flag: picoCTF{4u7o_r3v_g0_brrr_78c345aa}
+
 ________________________________________
 
 

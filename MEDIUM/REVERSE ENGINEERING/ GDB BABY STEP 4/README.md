@@ -1,11 +1,17 @@
 picoCTF Challenge Write-Up: GDB Baby Step 4
 
 Challenge Information
+
 •	Challenge Name: GDB Baby Step 4
+
 •	Category: Reverse Engineering
+
 •	Difficulty: Medium
+
 •	Points: 100
+
 •	Flag: picoCTF{12905}
+
 ________________________________________
 Challenge Description
 Main calls a function that multiplies eax by a constant. The flag for this challenge is that constant in decimal.

@@ -78,7 +78,7 @@ Convert hexadecimal 0x3269 to decimal.
 (You can verify this using GDB with p/d 0x3269, Python, or an online hexadecimal converter.)
 ________________________________________
 Step 8: Submit the Flag
-Since the challenge asks for the constant in decimal:
+Since the challenge asks for the constant in decimal : 
 picoCTF{12905}
 ________________________________________
 Key Takeaways
@@ -95,7 +95,7 @@ disassemble main
 disassemble func1
 ________________________________________
 
-Final Flag
+Final Flag : 
 picoCTF{12905}
 ________________________________________
 

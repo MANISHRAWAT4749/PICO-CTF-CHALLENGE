@@ -69,13 +69,21 @@ Flag :
 picoCTF{0x6bc96222}
 ________________________________________
 Commands Used
+
 cd /tmp
+
 wget https://artifacts.picoctf.net/c/531/debugger0_c
+
 chmod +x debugger0_c
+
 gdb debugger0_c
+
 disas main
+
 b *0x40111c
+
 run
+
 x/4xb $rbp-4
 ________________________________________
 

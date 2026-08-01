@@ -63,7 +63,7 @@ Memory Order	Byte
 4	0x22
 The challenge asks for the bytes exactly as they appear in memory.
 ________________________________________
-Flag
+Flag : 
 picoCTF{0x6bc96222}
 ________________________________________
 Commands Used
@@ -76,6 +76,7 @@ b *0x40111c
 run
 x/4xb $rbp-4
 ________________________________________
+
 Key Learning
 •	Use disas main to inspect assembly instructions.
 •	Set a breakpoint after the memory write instruction.

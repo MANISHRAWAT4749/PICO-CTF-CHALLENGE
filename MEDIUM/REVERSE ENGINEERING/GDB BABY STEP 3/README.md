@@ -78,10 +78,15 @@ x/4xb $rbp-4
 ________________________________________
 
 Key Learning
+
 •	Use disas main to inspect assembly instructions.
+
 •	Set a breakpoint after the memory write instruction.
+
 •	Use x/4xb to examine four bytes in memory.
+
 •	x86-64 systems use little-endian, meaning the least significant byte is stored at the lowest memory address.
+
 •	The flag is constructed from the bytes in the order they are stored in memory, not the original hexadecimal constant.
 ________________________________________
 

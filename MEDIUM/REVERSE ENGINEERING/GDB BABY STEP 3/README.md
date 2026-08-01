@@ -63,7 +63,9 @@ Memory Order	Byte
 4	0x22
 The challenge asks for the bytes exactly as they appear in memory.
 ________________________________________
+
 Flag : 
+
 picoCTF{0x6bc96222}
 ________________________________________
 Commands Used
@@ -88,6 +90,7 @@ Key Learning
 •	x86-64 systems use little-endian, meaning the least significant byte is stored at the lowest memory address.
 
 •	The flag is constructed from the bytes in the order they are stored in memory, not the original hexadecimal constant.
+
 ________________________________________
 
 

@@ -8,7 +8,7 @@ Difficulty: Medium
 
 Points: 100 pts
 ________________________________________
-Challenge Description
+Challenge Description : 
 A constant 0x2262c96b is loaded into memory in the main function. The goal is to examine how the value is stored in memory using GDB and determine the four bytes in memory order. Since the system uses little-endian architecture, the bytes are stored in reverse order.
 ________________________________________
 Steps to Solve

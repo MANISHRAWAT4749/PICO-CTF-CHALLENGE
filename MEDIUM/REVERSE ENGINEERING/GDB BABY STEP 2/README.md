@@ -75,13 +75,20 @@ ________________________________________
 
 Commands Used
 cd /tmp
+
 wget https://artifacts.picoctf.net/c/520/debugger0_b
-chmod +x debugger0_b
-gdb debugger0_b
+
+chmod +x debugger0_b 
+
+gdb debugger0_b 
+
 disas main
+
 b *0x401141
 run
+
 info registers eax
+
 p/d 0x4af4b
 ________________________________________
 

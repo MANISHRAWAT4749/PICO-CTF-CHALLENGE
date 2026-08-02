@@ -37,18 +37,22 @@ Output:
 0x401142 <+60>: ret
 The final value is moved into the EAX register just before the function returns. 
 ________________________________________
+
 Step 4: Set a Breakpoint
 Set a breakpoint immediately after the value is loaded into eax.
 b *0x401141
 Output:
 Breakpoint 1 at 0x401141
 ________________________________________
+
 Step 5: Run the Program
 run
 Output:
 Breakpoint 1, 0x0000000000401141 in main ()
 Execution stops just before returning from main().
+
 ________________________________________
+
 Step 6: Inspect the EAX Register
 Display the value stored in eax:
 info registers eax
@@ -61,9 +65,11 @@ p/d 0x4af4b
 Output:
 $1 = 307019
 ________________________________________
+
 Flag
 picoCTF{307019}
 ________________________________________
+
 Commands Used
 cd /tmp
 wget https://artifacts.picoctf.net/c/520/debugger0_b

@@ -30,8 +30,10 @@ gdb debugger0_b
 ________________________________________
 
 Step 3: Disassemble the main() Function
+
 Inside GDB:
 disas main
+
 Output:
 0x401115 <+15>: movl   $0x1e0da,-0x4(%rbp)
 0x40111c <+22>: movl   $0x25f,-0xc(%rbp)
@@ -39,6 +41,7 @@ Output:
 0x401141 <+59>: pop    %rbp
 0x401142 <+60>: ret
 The final value is moved into the EAX register just before the function returns. 
+
 ________________________________________
 
 Step 4: Set a Breakpoint

@@ -17,8 +17,11 @@ Determine the value stored in the EAX register at the end of the main() function
 
 ________________________________________
 Step 1: Download the Binary
+
 cd /tmp
+
 wget https://artifacts.picoctf.net/c/520/debugger0_b
+
 chmod +x debugger0_b
 ________________________________________
 

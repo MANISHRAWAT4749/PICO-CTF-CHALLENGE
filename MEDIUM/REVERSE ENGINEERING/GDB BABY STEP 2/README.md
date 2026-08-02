@@ -10,9 +10,12 @@ Category	Reverse Engineering
 Difficulty	Medium
 
 Points	100
-________________________________________
+________________________________________/
+
 Objective
-Determine the value stored in the EAX register at the end of the main() function and submit it in the format: picoCTF{value}________________________________________
+Determine the value stored in the EAX register at the end of the main() function and submit it in the format: picoCTF{value}
+
+________________________________________
 Step 1: Download the Binary
 cd /tmp
 wget https://artifacts.picoctf.net/c/520/debugger0_b

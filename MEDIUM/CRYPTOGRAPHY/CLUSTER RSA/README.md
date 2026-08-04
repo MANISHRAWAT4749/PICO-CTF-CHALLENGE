@@ -6,7 +6,7 @@ Difficulty: Medium
 
 Points: 400
 ________________________________________
-Challenge Description
+Challenge Description : 
 A message has been encrypted using RSA, but this time something feels more crowded than usual. Instead of the traditional two-prime RSA modulus, the modulus n is composed of four prime numbers. Our task is to recover the plaintext by factoring n, reconstructing the private key, and decrypting the ciphertext.
 ________________________________________
 Files Provided

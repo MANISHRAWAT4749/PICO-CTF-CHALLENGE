@@ -28,10 +28,13 @@ e = 65537
 ct = 2630159242114455882250729812770100011736485763047361297871782218963814793905003742546116295910618429
 ________________________________________
 Step 2 – Analyze the Hints
+
 Hint 1:
 RSA usually means two primes... but what if someone got greedy?
+
 Hint 2:
 Prime factors decomposition
+
 These hints suggest that the modulus n is a product of more than two prime numbers.
 ________________________________________
 Step 3 – Factor the Modulus

@@ -128,7 +128,7 @@ nano solve.py
 python3 solve.py
 ________________________________________
 
-Flag
+Flag : 
 picoCTF{mul71_rsa_8c9fb77d}
 ________________________________________
 Key Takeaways

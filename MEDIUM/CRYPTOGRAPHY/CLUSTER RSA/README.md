@@ -132,14 +132,19 @@ Flag :
 picoCTF{mul71_rsa_8c9fb77d}
 ________________________________________
 Key Takeaways
-•	Standard RSA uses two prime factors, while Multi-Prime RSA uses three or more.
+•	Standard RSA uses two prime factors, while Multi-Prime RSA uses three or more. 
+
 •	If all prime factors of n are known, recovering the private key is straightforward.
+
 •	Euler's Totient for Multi-Prime RSA is:
 •	φ(n) = ∏ (pi − 1)
+
 •	The private exponent is computed using the modular inverse:
 •	d = e⁻¹ mod φ(n)
+
 •	Once d is obtained, decryption is performed with:
 •	m = cᵈ mod n
+
 •	The decrypted integer is converted into bytes to reveal the original message.
 This challenge demonstrates that the security of RSA—whether using two primes or multiple primes—depends entirely on the difficulty of factoring the modulus. Once the prime decomposition is known, the private key and plaintext can be recovered efficiently.
 ________________________________________

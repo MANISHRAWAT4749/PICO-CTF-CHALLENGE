@@ -132,6 +132,7 @@ Flag :
 picoCTF{mul71_rsa_8c9fb77d}
 ________________________________________
 Key Takeaways
+
 •	Standard RSA uses two prime factors, while Multi-Prime RSA uses three or more. 
 
 •	If all prime factors of n are known, recovering the private key is straightforward.

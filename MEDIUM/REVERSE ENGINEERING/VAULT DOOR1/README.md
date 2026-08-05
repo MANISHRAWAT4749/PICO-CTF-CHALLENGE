@@ -7,8 +7,10 @@ Difficulty: Medium
 Points: 100
 
 ________________________________________
-Challenge Description
+
+Challenge Description : 
 The vault checks the password one character at a time instead of storing it directly. Our objective is to reconstruct the correct password by analyzing the Java source code.
+
 ________________________________________
 Files Provided
 •	VaultDoor1.java

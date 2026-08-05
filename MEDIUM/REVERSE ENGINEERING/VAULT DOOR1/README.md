@@ -78,6 +78,7 @@ ________________________________________
 
 Step 4: Form the Flag
 The program strips the picoCTF{} wrapper before checking the password, so the reconstructed password must be placed inside the flag format.
+
 picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_29e8d8}
 ________________________________________
 

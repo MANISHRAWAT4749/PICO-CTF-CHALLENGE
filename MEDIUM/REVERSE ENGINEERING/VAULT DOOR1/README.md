@@ -13,6 +13,7 @@ The vault checks the password one character at a time instead of storing it dire
 
 ________________________________________
 Files Provided
+
 •	VaultDoor1.java
 ________________________________________
 Step 1: Download the Challenge File

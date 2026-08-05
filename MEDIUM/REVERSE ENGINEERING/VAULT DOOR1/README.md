@@ -1,7 +1,11 @@
 picoCTF 2019 – VaultDoor1
+
 Category: Reverse Engineering
+
 Difficulty: Medium
+
 Points: 100
+
 ________________________________________
 Challenge Description
 The vault checks the password one character at a time instead of storing it directly. Our objective is to reconstruct the correct password by analyzing the Java source code.

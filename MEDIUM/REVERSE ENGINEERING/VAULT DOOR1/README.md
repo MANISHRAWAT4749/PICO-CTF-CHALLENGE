@@ -93,14 +93,17 @@ ________________________________________
 
 Flag : 
 picoCTF{d35cr4mbl3_tH3_cH4r4cT3r5_29e8d8}
+
 ________________________________________
 
 Key Takeaways
+
 •	Read source code carefully before attempting dynamic analysis.
 
 •	charAt(index) accesses a character at a specific position in a string.
 
 •	Reconstructing a password from indexed character checks is a common reverse engineering technique.
+
 •	Sometimes the simplest solution is manually rebuilding the expected input from the source code rather than reversing the compiled binary.
 ________________________________________
 

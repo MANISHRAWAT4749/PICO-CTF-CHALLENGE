@@ -6,14 +6,17 @@ Difficulty: Medium
 
 Points: 40
 ________________________________________
-Challenge Description
+Challenge Description : 
+
 Analyze the provided ARM64 assembly program to determine the integer printed by the program. Convert the printed integer to an 8-digit lowercase hexadecimal value and submit it in the format:
 picoCTF{xxxxxxxx}
 For this challenge, the provided arguments were:
 a = 2593949075
 b = 2233560849
 ________________________________________
+
 Solution
+
 Step 1 – Examine the Assembly
 The main function converts the two command-line arguments from strings to integers using atoi():
 bl atoi
@@ -65,13 +68,20 @@ python3 -c "print('{:08x}'.format(2593949075))"
 Output:
 9a9c8593
 ________________________________________
-Flag
+
+Flag : 
 picoCTF{9a9c8593}
 ________________________________________
+
 Key Takeaways
+
 •	Learned how ARM64 passes function arguments using registers (w0, w1).
+
 •	Understood the use of the cmp instruction for comparisons.
+
 •	Learned that bls performs an unsigned "lower or same" comparison.
+
 •	Converted the final decimal output into the hexadecimal format required by picoCTF.
+
 ________________________________________
 

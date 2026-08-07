@@ -1,6 +1,9 @@
 picoCTF 2021 – ARMssembly 0
+
 Category: Reverse Engineering
+
 Difficulty: Medium
+
 Points: 40
 ________________________________________
 Challenge Description

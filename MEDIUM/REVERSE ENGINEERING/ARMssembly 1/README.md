@@ -13,6 +13,7 @@ Hint: Shifts
 ________________________________________
 
 Solution
+
 Step 1: Analyze main()
 The main function reads the command-line argument using atoi() and passes it to func().
 bl atoi
